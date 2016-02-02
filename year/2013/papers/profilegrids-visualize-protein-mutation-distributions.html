@@ -1,0 +1,241 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta about="/year/2013/papers/profilegrids-visualize-protein-mutation-distributions" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+<link rel="shortcut icon" href="../../../sites/all/themes/biovis/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta content="ProfileGrids Visualize Protein Mutation Distributions" about="/year/2013/papers/profilegrids-visualize-protein-mutation-distributions" property="dc:title" />
+<link rel="shortlink" href="../../../node/559.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="profilegrids-visualize-protein-mutation-distributions.html" />
+  <title>ProfileGrids Visualize Protein Mutation Distributions | BioVis</title>
+  <style type="text/css" media="all">@import url("http://www.biovis.net/modules/system/system.base.css?njdarp");
+@import url("http://www.biovis.net/modules/system/system.menus.css?njdarp");
+@import url("http://www.biovis.net/modules/system/system.messages.css?njdarp");
+@import url("http://www.biovis.net/modules/system/system.theme.css?njdarp");</style>
+<style type="text/css" media="all">@import url("http://www.biovis.net/modules/comment/comment.css?njdarp");
+@import url("../../../sites/all/modules/date/date_api/date.css@njdarp.css");
+@import url("../../../sites/all/modules/date/date_popup/themes/datepicker.1.7.css@njdarp.css");
+@import url("http://www.biovis.net/modules/field/theme/field.css?njdarp");
+@import url("http://www.biovis.net/modules/node/node.css?njdarp");
+@import url("http://www.biovis.net/modules/search/search.css?njdarp");
+@import url("http://www.biovis.net/modules/user/user.css?njdarp");
+@import url("../../../sites/all/modules/views/css/views.css@njdarp.css");</style>
+<style type="text/css" media="all">@import url("../../../sites/all/modules/ckeditor/ckeditor.css@njdarp.css");
+@import url("../../../sites/all/modules/ctools/css/ctools.css@njdarp.css");</style>
+<link type="text/css" rel="stylesheet" href="../../../sites/all/libraries/imageflow/imageflow.css@njdarp.css" media="all" />
+<style type="text/css" media="all">@import url("../../../sites/all/modules/imageflow/css/imageflow.module.css@njdarp.css");</style>
+<style type="text/css" media="all">@import url("http://www.biovis.net/themes/bartik/css/layout.css?njdarp");
+@import url("http://www.biovis.net/themes/bartik/css/style.css?njdarp");
+@import url("../../../sites/default/files/color/biovis-8495a6ec/colors.css@njdarp.css");
+@import url("../../../sites/all/themes/biovis/css/biovis.css@njdarp.css");</style>
+<style type="text/css" media="print">@import url("http://www.biovis.net/themes/bartik/css/print.css?njdarp");</style>
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="http://www.biovis.net/sites/all/themes/biovis/css/ie.css?njdarp" media="all" />
+<![endif]-->
+
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="http://www.biovis.net/sites/all/themes/biovis/css/ie6.css?njdarp" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://www.biovis.net/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://www.biovis.net/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://www.biovis.net/misc/drupal.js?njdarp"></script>
+<script type="text/javascript" src="../../../sites/all/libraries/imageflow/imageflow.packed.js@njdarp"></script>
+<script type="text/javascript" src="../../../sites/all/modules/imageflow/js/imageflow.load.js@njdarp"></script>
+<script type="text/javascript" src="../../../sites/all/modules/google_analytics/googleanalytics.js@njdarp"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-22015250-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"biovis","theme_token":"CH2kXAnWyWvfGMzZtdyPmfRmb-lI2Y9y7NcXewCeefE","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/imageflow\/imageflow.packed.js":1,"sites\/all\/modules\/imageflow\/js\/imageflow.load.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/imageflow\/imageflow.css":1,"sites\/all\/modules\/imageflow\/css\/imageflow.module.css":1,"themes\/bartik\/css\/layout.css":1,"themes\/bartik\/css\/style.css":1,"sites\/all\/themes\/biovis\/css\/colors.css":1,"sites\/all\/themes\/biovis\/css\/biovis.css":1,"themes\/bartik\/css\/print.css":1,"sites\/all\/themes\/biovis\/css\/ie.css":1,"sites\/all\/themes\/biovis\/css\/ie6.css":1}},"imageflow":{"imageflow-1":{"reflections":false,"captions":true,"imagesHeight":0.45,"percentLandscape":100,"aspectRatio":3.3,"startID":7,"ImageFlowID":"imageflow-1","imagePath":"..\/..\/..\/..","reflectPath":"\/sites\/all\/libraries\/imageflow\/"}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+//--><!]]>
+</script>
+  <base href="" />
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-559 node-type-paper" >
+  <div id="skip-link">
+    <a href="../../../index.html#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page-wrapper"><div id="page">
+
+  <div id="header" class="without-secondary-menu"><div class="section clearfix">
+
+          <a href="../about.html" title="Home" rel="home" id="logo">
+        <img src="../../../sites/default/files/logo_3.png" alt="Home" />
+      </a>
+    
+          <div id="name-and-slogan">
+
+                              <div id="site-name">
+              <strong>
+                <span class="conference-name">3rd IEEE Symposium on Biological Data Visualization</span>
+              </strong>
+			  <br />
+			    <span class="conference-info">13-14 October 2013 // Atlanta, GA @ IEEE VIS</span>
+            </div>
+                  
+        
+      </div> <!-- /#name-and-slogan -->
+				  <div id="header-rotation">
+		    <img src="../../../sites/all/themes/biovis/header_rotation/2013/136.png" alt=""/>		  </div>
+		    
+    
+          <div id="main-menu" class="navigation">
+	  <h2 class="element-invisible">Main menu</h2><ul id="main-menu-links" class="links clearfix"><li class="menu-547 first"><a href="../about.html" title="Frontpage with News and Information">About</a></li>
+<li class="menu-556"><a href="../info/schedule.html" title="">Program</a></li>
+<li class="menu-549"><a href="../info/cfp.html" title="">CFP</a></li>
+<li class="menu-554"><a href="../papers.html" title="">Papers</a></li>
+<li class="menu-555"><a href="../posters.html" title="">Posters</a></li>
+<li class="menu-539"><a href="../info/contest.html" title=""> Data Contest</a></li>
+<li class="menu-550"><a href="../info/redesign-contest.html" title="">Redesign Contest</a></li>
+<li class="menu-548"><a href="../info/committee.html" title="">Committee</a></li>
+<li class="menu-546 last"><a href="../../../conference-archive.html" title="">Archive</a></li>
+</ul>      </div> <!-- /#main-menu -->
+    
+
+    
+  </div></div> <!-- /.section, /#header -->
+    
+  
+  
+  <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
+
+    
+    
+    <div id="content" class="column"><div class="section">
+            <a id="main-content"></a>
+                    <h1 class="title" id="page-title">
+          ProfileGrids Visualize Protein Mutation Distributions        </h1>
+                          <div class="tabs">
+                  </div>
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-559" class="node node-paper node-full clearfix" about="/year/2013/papers/profilegrids-visualize-protein-mutation-distributions" typeof="sioc:Item foaf:Document">
+
+      
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-submission-type field-type-list-text field-label-hidden"><div class="field-items"><div class="field-item even">Poster</div></div></div><div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="../../../sites/default/files/styles/medium/public/papers/2013/2013PosterBioVis121-Roca.png" width="220" height="155" alt="" /></div></div></div><div class="field field-name-field-author-list field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Alberto Roca</div></div></div><div class="field field-name-field-abstract field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>Large multiple sequence alignments (MSAs) are no longer manageable for visualization using the traditional stacked sequence alignment representation. Sequence Logos were introduced in 1990 to represent a MSA consensus; and, there have been no significant advances in alignment visualization since then. However, Logos are inadequate for visualizing protein MSAs. For example, alignment variable regions and rare residues are not legible. Also, there is no visual encoding of differences between data sets other than the stacking of separate Logos. ProfileGrids are a new paradigm for visualizing large MSAs as a matrix color-coded according to the residue frequency occurring at each column position (<a href="http://www.biomedcentral.com/1471-2105/9/554/">http://www.biomedcentral.com/1471-2105/9/554/</a>). Our poster will discuss the criteria for MSA visualization paradigms and tools. Procter (2010) suggested that tools should navigate visually both an overview and the details of an alignment while having mechanisms to query annotated data. JProfileGrid accomplishes these tasks and also satisfies new criteria for &quot;solving&quot; the large alignment visualization challenge such as depicting specific subgroups of an alignment (using a new metadata feature) as well as showing correlations between amino acid positions within subgroups (by treating an alignment as a database for lookups). Finally, the 2013 BioVis Redesign Contest allows comparing Sequence Logos versus ProfileGrids on the same dataset as judged by visualization and protein family experts. We demonstrate that ProfileGrids clearly visualize protein mutation distributions and differences between subfamily alignments. The new JProfileGrid v2.0 software (<a href="http://f1000research.com/articles/2-2/">http://f1000research.com/articles/2-2/</a>) is freely available (<a href="http://www.ProfileGrid.org">http://www.ProfileGrid.org</a>).</p>
+</div></div></div>  </div>
+
+  
+  
+</div>
+  </div>
+</div>
+<div id="block-block-9" class="block block-block">
+
+    
+  <div class="content">
+    <h2>BioVis 2013 Information</h2><div class="view view-imageflow view-id-imageflow view-display-id-block view-dom-id-72bf9fdfad21aa4a4819987771b68a5d">
+        
+  
+  
+      <div class="view-content">
+      <div class="imageflow clearfix" id="imageflow-1">
+  <img longdesc="/year/2013/papers/co2vis-visual-analytics-tool-mining-co-expressed-and-co-regulated-genes-implied-hiv" alt="" src="../../../sites/default/files/styles/medium/public/papers/2013/2013PosterBioVis112-Sallaberry.png" width="220" height="165" /><img longdesc="/year/2013/papers/netgestalt-integrating-multidimensional-omics-data-over-biological-networks" alt="NetGestalt: integrating multidimensional omics data over biological networks" src="../../../sites/default/files/styles/medium/public/papers/2013/2013PosterBioVis113-Wang.png" width="220" height="206" /><img longdesc="/year/2013/papers/procontactvisio-visualizing-protein-intramolecular-contacts" alt="" src="../../../sites/default/files/styles/medium/public/papers/2013/2013PosterBioVis114-Silveira.png" width="220" height="165" /><img longdesc="/year/2013/papers/focuscontext-visualization-computational-biology-expression-atlases" alt="" src="../../../sites/default/files/styles/medium/public/papers/2013/2013PosterBioVis115-Castillo.png" width="220" height="165" /><img longdesc="/year/2013/papers/cell-culture-online-data-analysis-tool-combining-data-multiple-experiments-and" alt="" src="../../../sites/default/files/styles/medium/public/papers/2013/2013PosterBioVis116-Gruver.png" width="220" height="166" /><img longdesc="/year/2013/papers/importance-driven-visualization-molecular-surfaces" alt="Importance Driven Visualization of Molecular Surfaces" src="../../../sites/default/files/styles/medium/public/papers/2013/2013PosterBioVis118-Parulek.png" width="220" height="165" /><img longdesc="/year/2013/papers/high-throughput-cell-analysis-system-determine-chromosome-territory-boundaries-and" alt="A High-Throughput Cell Analysis System to Determine Chromosome Territory Boundaries and Spatial Organization" src="../../../sites/default/files/styles/medium/public/papers/2013/2013PosterBioVis119-Ade.png" width="220" height="165" /><img longdesc="/year/2013/papers/profilegrids-visualize-protein-mutation-distributions" alt="" src="../../../sites/default/files/styles/medium/public/papers/2013/2013PosterBioVis121-Roca.png" width="220" height="155" /><img longdesc="/year/2013/papers/segmentation-3d-cell-tomography-cellular-resolution" alt="" src="../../../sites/default/files/styles/medium/public/papers/2013/2013PosterBioVis102-Chang.png" width="220" height="165" /><img longdesc="/year/2013/papers/ztree-interactive-3d-visualization-combinatorial-dna-libraries" alt="" src="../../../sites/default/files/styles/medium/public/papers/2013/2013PosterBioVis122-Shaer.png" width="220" height="165" /><img longdesc="/year/2013/papers/savor-annotation-and-visualization-rna-structures" alt="SAVoR: Annotation and Visualization of RNA structures" src="../../../sites/default/files/styles/medium/public/papers/2013/2013PosterBioVis103-Li.png" width="220" height="165" /><img longdesc="/year/2013/papers/evaluation-helium-visualization-large-scale-plant-pedigrees" alt="" src="../../../sites/default/files/styles/medium/public/papers/2013/2013PosterBioVis105-Shaw.png" width="220" height="165" /><img longdesc="/year/2013/papers/glom-image-segmentation-glomerular-counting" alt="Glom: Image Segmentation for Glomerular Counting" src="../../../sites/default/files/styles/medium/public/papers/2013/2013PosterBioVis106-Xiao.png" width="220" height="165" /><img longdesc="/year/2013/papers/journaling-system-rule-based-biochemical-models" alt="" src="../../../sites/default/files/styles/medium/public/papers/2013/2013PosterBioVis107-Wenskovitch.png" width="220" height="171" /><img longdesc="/year/2013/papers/visual-analysis-zygotic-and-early-embryonic-transcripts" alt="" src="../../../sites/default/files/styles/medium/public/papers/2013/2013PosterBioVis108-Sakai.png" width="220" height="165" /><img longdesc="/year/2013/papers/visualizing-microbial-ecology-data-public-and-scientific-audiences" alt="Visualizing Microbial Ecology Data for Public and Scientific Audiences" src="../../../sites/default/files/styles/medium/public/papers/2013/2013PosterBioVis109-Pirrung.png" width="220" height="165" /><img longdesc="/year/2013/papers/visual-comparison-and-investigation-cancer-data-using-deterministic-graph-layout" alt="" src="../../../sites/default/files/styles/medium/public/papers/2013/2013PosterBioVis110-Kreisberg.png" width="220" height="165" /><img longdesc="/year/papers/molecular-control-toolkit-controlling-3d-molecular-graphics-gesture-and-voice" alt="" src="../../../sites/default/files/styles/medium/public/papers/2013/BioVis0130-file1.png" width="220" height="165" /><img longdesc="/year/papers/neuromap-interactive-graph-visualization-fruit-flys-neural-circuit" alt="" src="../../../sites/default/files/styles/medium/public/papers/2013/BioVis0132-file1.png" width="220" height="165" /><img longdesc="/year/papers/genome-wide-detection-srna-targets-rnav" alt="" src="../../../sites/default/files/styles/medium/public/papers/2013/BioVis0110-file1.jpg" width="220" height="87" /><img longdesc="/year/papers/large-scale-multiple-sequence-alignment-visualization-through-gradient-vector-flow" alt="" src="../../../sites/default/files/styles/medium/public/BioVis0138-file1.png" width="220" height="43" /><img longdesc="/year/papers/hummod-browser-exploratory-visualization-tool-analysis-whole-body-physiology-simulation" alt="" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVis0139-file1.png" width="220" height="165" /><img longdesc="/year/papers/visual-cleaning-genotype-data" alt="" src="../../../sites/default/files/styles/medium/public/papers/2013/BioVis0142-file1.png" width="220" height="165" /><img longdesc="/year/papers/visnest-interactive-analysis-neural-activity-data" alt="" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVis0146-file1.png" width="211" height="220" /><img longdesc="/year/papers/combat-visualizing-co-occurrence-annotation-terms" alt="" src="../../../sites/default/files/styles/medium/public/papers/2013/BioVis0149-file1.png" width="220" height="165" /><img longdesc="/year/papers/robust-detection-and-visualization-cytoskeletal-structures-fibrillar-scaffolds-3" alt="" src="../../../sites/default/files/styles/medium/public/papers/2013/BioVis0110-file1.jpg" width="220" height="87" /><img longdesc="/year/papers/moclo-planner-interactive-visualization-modular-cloning-bio-design" alt="" src="../../../sites/default/files/styles/medium/public/papers/2013/BioVis0115-file1.jpg" width="220" height="165" /><img longdesc="/year/papers/presentaball-powerful-package-presentations-and-lessons-structural-biology" alt="" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVis0120-file1.png" width="220" height="165" /><img longdesc="/year/papers/leveraging-wall-sized-high-resolution-displays-comparative-genomics-analyses-copy-number" alt="" src="../../../sites/default/files/styles/medium/public/papers/2013/BioVis0123-file1.jpg" width="220" height="165" /><img longdesc="/year/papers/biochemical-reaction-networks-3d-dynamics-cell-zigcell3d-modeling-simulation-and" alt="" src="../../../sites/default/files/styles/medium/public/papers/2013/BioVis0126-file1.png" width="220" height="165" /><img longdesc="/year/papers/invis-exploring-high-dimensional-sequence-space-vitro-selection" alt="" src="../../../sites/default/files/styles/medium/public/BioVis0129-file1.png" width="220" height="134" /></div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+      
+    </div></div> <!-- /.section, /#content -->
+
+          <div id="sidebar-second" class="column sidebar"><div class="section">
+          <div class="region region-sidebar-second">
+    <div id="block-block-11" class="block block-block">
+
+    <h2>Follow us on Twitter</h2>
+  
+  <div class="content">
+    <p><a href="http://twitter.com/#!/search/realtime/%23biovis">@biovis_net / #biovis</a></p>
+  </div>
+</div>
+<div id="block-block-14" class="block block-block">
+
+    
+  <div class="content">
+    <p>BioVis 2013 is an official symposium of</p>
+<p><a href="http://www.ieee.org"><img alt="" src="../../../sites/default/files/ieee_logo_sm.png" style="width: 170px; height: 50px; " /></a><br />
+	<a href="http://www.computer.org"><img alt="" src="../../../sites/default/files/ieee_cs_logo_sm.png" style="width: 66px; height: 40px; " /></a>&nbsp;<a href="http://www.vgtc.org"><img alt="" src="../../../sites/default/files/ieee_vgtc_logo_sm.png" style="width: 70px; height: 40px; " /></a></p>
+<p>BioVis 2013 is affiliated with</p>
+<p><a href="http://www.iscb.org"><img alt="" src="../../../sites/default/files/iscb_logo_sm.png" style="width: 146px; height: 50px; " /></a><br />
+	Join ISCB and get a 20% <a href="http://www.iscb.org/iscb-membership-benefits">member discount</a> at BioVis&#39;13.</p>
+<p>&nbsp;</p>
+<p>BioVis 2013 Supportes</p>
+<p>Silver:</p>
+<p><a href="http://www.agilent.com"><img alt="Agilent" src="../../../sites/default/files/4c_CorporateSig-noHL_0.jpg" style="width: 146px; height: 28px;" /></a></p>
+<p>Bronze:</p>
+<p><img alt="" src="../../../sites/default/files/autodesk_logo_sm.png" style="width: 146px; height: 30px;" /></p>
+<p><a href="http://www.mathmed.org/"><img alt="Agilent" src="../../../sites/default/files/bcmm_logo_sm.png" style="width: 146px; height: 54px;" /></a></p>
+<p>&nbsp;</p>
+  </div>
+</div>
+<div id="block-block-12" class="block block-block">
+
+    <h2>Deadlines</h2>
+  
+  <div class="content">
+    <p><strong>Paper Deadline</strong><br />
+	- Abstract:<br />
+	&nbsp; April 30, 2013<br />
+	- Full Paper:<br />
+	&nbsp; May 7, 2013<br />
+	<strong>Poster Deadline</strong><br />
+	August 2, 2013<br />
+	<strong>Data Contest Deadline</strong><br />
+	August 2, 2013<br />
+	<strong>Redesign Contest Deadline</strong><br />
+	August 2, 2013</p>
+  </div>
+</div>
+  </div>
+      </div></div> <!-- /.section, /#sidebar-second -->
+    
+  </div></div> <!-- /#main, /#main-wrapper -->
+
+  
+  <div id="footer-wrapper"><div class="section">
+
+    
+          <div id="footer" class="clearfix">
+          <div class="region region-footer">
+    <div id="block-block-13" class="block block-block">
+
+    
+  <div class="content">
+    <p>BioVis 2013 is sponsored by the <a class="link" href="http://www.vgtc.org/">IEEE VGTC</a>. To contact the organizers please send an email to <a class="link" href="mailto:contact@biovis.net">contact@biovis.net</a>. &copy; 2013. BioVis. All Rights Reserved.</p>
+  </div>
+</div>
+  </div>
+      </div> <!-- /#footer -->
+    
+  </div></div> <!-- /.section, /#footer-wrapper -->
+
+</div></div> <!-- /#page, /#page-wrapper -->
+  </body>
+</html>

@@ -1,0 +1,579 @@
+body {
+	background-color: #242428;
+	margin: 0;
+	margin-top: 40px;
+}
+
+#frame {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	padding: 50px;
+}
+
+
+/* @group header */
+
+.header {
+	margin-bottom: 30px;
+	display: block;
+	width: 100%;
+	height: 200px;
+}
+
+.logo {
+	float: left;
+	height: 150px;
+	width: 50%;
+}
+
+.logo img
+{
+	width:  200px;
+}	
+
+.subtitle
+{
+	float: right;
+	height: 150px;
+	width: 50%;	
+}
+
+.subtitle h2
+{
+	margin: 0;
+	margin-top: 5pt;
+	text-align: right;
+	text-transform: lowercase;
+	color: #929ba3;
+	font: bold 18pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.subtitle h3
+{
+	margin: 0;
+	margin-top: 5pt;
+	text-align: right;
+	text-transform: lowercase;
+	color: #cecdcd;
+	font: 10pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.navbar
+{
+	font-weight: bold;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	width: 100%;
+	display: block;
+	height: 20px;
+}
+
+
+/* @end */
+
+/* @group menu */
+
+.menu
+{
+	margin-left: -40;
+	text-transform: lowercase;
+}
+
+.menu ul {
+	display: block;
+}
+
+.menu li 
+{
+	margin: 0;
+	padding-left: 0px;
+	padding-right: 15px;
+	float: left;
+	display: block;
+	font-size: 12pt;
+}
+
+.menu a
+{
+	text-decoration: none;
+	color: #757f87;
+}
+
+.menu a:visited {
+	color: #757f87;
+}
+
+.menu a:active {
+	color: #b8c0cb;
+}
+
+.menu a:hover {
+	color: #b8c0cb;
+}
+
+
+/* @end */
+
+/* @group content */
+
+.content {
+	color: white;
+	display: block;
+	width: 100%;
+}
+
+.content .previousnews {
+	font-size: small;
+	text-align: right;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.content h1 {
+	font: bold 18pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #cdcccc;
+	text-transform: lowercase;
+}
+
+.content h2 {
+	font: bold 16pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #cdcccc;
+	text-transform: lowercase;
+	padding-top: 15px;
+}
+
+.content {
+	font: normal 11pt/15pt Georgia, "Times New Roman", Times, serif;
+	color: #b6bec9;
+	text-align: justify;
+}
+
+.content table {
+	font: normal 11pt/15pt Georgia, "Times New Roman", Times, serif;
+	color: #b6bec9;
+	border-collapse: collapse;
+	text-align: justify;
+}
+
+.content table td {
+	padding: 5px 2px;
+	margin: 0px;
+}
+
+.content table .highlight {	
+	background-color: #441e22;
+}
+
+.content strong {
+	font-weight: bold;
+	color: #cdcccc;
+}
+
+.content emph {
+	font-style: italic;
+	color: #cdcccc;
+}
+
+.content a {
+	color: #cdcccc;
+}
+
+.content a:visited {
+	color: #cdcccc;
+}
+
+.content a:active {
+	color: #ffffff;
+}
+
+.content a:hover {
+	color: #ffffff;
+}
+
+.content p.keydates {
+	
+	background-color: #441e22;
+	float: right;
+	clear: right;
+	margin: 15px;
+	padding: 15px;	
+	margin-top: -20px;
+	margin-right: -40px;
+	line-height: 1.5em;
+	font-size: small;
+}
+
+.content p.keydates strong {
+	margin-top: 0px;
+}
+
+.content p.keyinfo {	
+	background-color: #441e22;
+	float: right;
+	clear: right;
+	margin: 15px;
+	padding: 15px;	
+	margin-top: 10px;
+	margin-right: -40px;
+	line-height: 1.5em;
+	font-size: small;
+}
+
+.content p.keyinfo a
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+/* @group presentation */
+
+.presentation {
+	margin-bottom: 17px;
+}
+
+.presentation.short {
+	min-height: 55px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.presentation .title {
+	font: bold medium Georgia, "Times New Roman", Times, serif;
+	display: block;	
+	margin-bottom: 7px;
+}
+
+.presentation .details {
+	display: inline-block;
+}
+
+.presentation .details .left {
+	float: left;
+	width: 480px;
+	margin-right: 20px;
+	display: block;	
+}
+
+.presentation .details .right {
+	width: 300px;
+	display: inline-block;	
+}
+
+
+.presentation .image {
+	display: block;	
+	margin-top: 13px;
+	margin-bottom: 10px;
+	border: 1px solid #4d5960;	
+}
+
+.presentation .thumbnail {
+	display: block;	
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 10px;
+	border: 1px solid #4d5960;	
+}
+
+.presentation .abstract {
+	font: normal medium Georgia, "Times New Roman", Times, serif;
+	display: block;	
+	margin-bottom: 5px;
+	margin-top: 13px;
+}
+
+.presentation .details a {
+	font: small "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	display: block;
+	margin-bottom: 4px;
+	margin-top: 4px;
+}
+
+.presentation .details .materials {
+	font: small "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.presentation .author {
+	font: small "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.presentation.time {
+	
+}
+
+
+/* @group presentation */
+
+.speaker {
+	margin-bottom: 20px;	
+	background-color: #323238;
+	padding: 7px;
+}
+
+.speaker .image {
+	display: block;
+	padding-right: 5px;
+	float: left;
+	width: 80px;
+}
+
+.speaker p {
+	padding: 0px;
+	margin: 0px;
+	line-height: 1.3;
+	margin-bottom: 2px;
+}
+
+.speaker img.photo {
+	width: 75px;
+	border: 1px solid #242428;
+}
+
+.speaker .detail {
+	margin-left: 85px;
+}
+
+.speaker .name {
+	font: bold medium Georgia, "Times New Roman", Times, serif;
+	display: block;	
+	margin-bottom: 3px;
+}
+
+.speaker .affiliation {
+	font: small "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	display: block;
+	margin-bottom: 3px;
+}
+
+.speaker .title {
+	font: small "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	display: block;
+}
+
+.speaker .bio {
+	font: small Georgia, "Times New Roman", Times, serif;
+	text-align: justify;
+	border-top: 2px solid #535a5f;	
+	margin-top: 5px;
+	padding-top: 5px;
+	display: block;
+}
+
+
+/* @end */
+
+/* @group agenda */
+
+.schedule table {
+	width: 100%;
+}
+
+.schedule table tr {
+	vertical-align: top;
+	margin: 0;
+}
+
+.schedule table td {
+	text-align: left;
+}
+
+.schedule table thead {
+	font: bold 14pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #cdcccc;
+	text-transform: lowercase;	
+}
+
+.schedule table td {
+	padding: 7px;
+}
+
+.schedule td.timecolumn {
+	width: 8%;
+	text-align: right;
+	padding-right: 10px;
+}
+
+.schedule td.programcolumn {
+	width: 42%;
+}
+
+.schedule tbody tr {
+	border-top: 2px solid #535a5f;
+}
+
+.schedule tr.break {
+	color: #757f87;
+	font: bold small "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.schedule td.break {
+	color: #757f87;
+	font-size: small;
+	font: small "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+.schedule span.time {
+	font: small "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;	
+	color: #cdcccc;
+}
+
+.schedule span.talk {
+	font: bold small Georgia, "Times New Roman", Times, serif;
+	color: #cdcccc;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.schedule span.presenter {
+	font: small "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	display: block;
+}
+
+
+/* @end */
+
+/* @group sponsors */
+
+.sponsorlogo {
+	height: 50px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+/*
+.sponsorlogotitle {
+	display: inline;
+	width: 100%;
+	color: #242428;
+	background-color: #757f87;
+	font: normal 9pt Georgia, "Times New Roman", Times, serif;
+	float: left;
+	padding: 2px;
+	margin-bottom: 8px;
+}
+*/
+
+.sponsorlogotitle {
+	display: inline;
+	width: 100%;
+	color: #757f87;
+	font: normal 9pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	float: left;
+	padding: 2px;
+	margin-bottom: 8px;
+	border-bottom: 2px solid #535a5f;
+}
+
+.sponsorlogobox {
+	margin-right: 40px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	width: 100%;
+}
+
+.sponsorlogoboxtight {
+	margin-right: 40px;
+	display: inline-block;
+	float: left;
+	margin-top: 10px;
+	width: 100%;
+	height: 100px
+}
+
+.box {
+	margin-right: 20px;
+	display: inline-block;
+	width: 100%;
+}
+
+/* @end */
+
+/* @end */
+
+/* @group footer */
+
+.footer {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	display: block;
+	width: 100%;
+}
+
+.footer p {
+	color: #757f87;
+	font: 10pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	text-align: justify;
+}
+
+.footer a {
+	color: #757f87;
+}
+
+.footer a:visited {
+	color: #757f87;
+}
+
+.footer a:hover {
+	color: #b8c0cb;
+}
+
+.footer a:active {
+	color: #b8c0cb;
+}
+
+/* @end */
+
+/* @group ImageFlow */
+
+.imageflowIndexPane .imageflowHeader {
+	text-align: left; 
+	border-bottom: 2px solid #535a5f;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	font: normal 9pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #757f87;
+}
+
+.imageflowIndexPane .imageflowFooter {
+	border-bottom: 2px solid #535a5f;
+}
+
+.imageflowIndexPane {
+	position: relative;
+	margin-top: 0px;
+	margin-bottom: -60px;
+	padding-bottom: 60px;
+	padding-top: 2px;
+}
+
+
+.imageflowPagePane .imageflowHeader {
+	text-align: left; 
+	border-bottom: 2px solid #535a5f;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	padding-left: 2px;
+	font: normal 9pt "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	color: #757f87;
+}
+
+.imageflowPagePane .imageflowFooter {
+	//border-bottom: 2px solid #535a5f;
+}
+
+.imageflowPagePane {
+	position: relative;
+	margin-top: 0px;
+	margin-bottom: -60px;
+	padding-bottom: 60px;
+	padding-top: 2px;
+}
+
+/* @end */
+

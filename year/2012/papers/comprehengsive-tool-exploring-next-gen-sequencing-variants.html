@@ -1,0 +1,240 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta about="/year/2012/papers/comprehengsive-tool-exploring-next-gen-sequencing-variants" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+<link rel="shortcut icon" href="../../../sites/all/themes/biovis/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta content="compreheNGSive: A Tool for Exploring Next-Gen Sequencing Variants" about="/year/2012/papers/comprehengsive-tool-exploring-next-gen-sequencing-variants" property="dc:title" />
+<link rel="shortlink" href="../../../node/472.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="comprehengsive-tool-exploring-next-gen-sequencing-variants.html" />
+  <title>compreheNGSive: A Tool for Exploring Next-Gen Sequencing Variants | BioVis</title>
+  <style type="text/css" media="all">@import url("http://www.biovis.net/modules/system/system.base.css?njdarp");
+@import url("http://www.biovis.net/modules/system/system.menus.css?njdarp");
+@import url("http://www.biovis.net/modules/system/system.messages.css?njdarp");
+@import url("http://www.biovis.net/modules/system/system.theme.css?njdarp");</style>
+<style type="text/css" media="all">@import url("http://www.biovis.net/modules/comment/comment.css?njdarp");
+@import url("../../../sites/all/modules/date/date_api/date.css@njdarp.css");
+@import url("../../../sites/all/modules/date/date_popup/themes/datepicker.1.7.css@njdarp.css");
+@import url("http://www.biovis.net/modules/field/theme/field.css?njdarp");
+@import url("http://www.biovis.net/modules/node/node.css?njdarp");
+@import url("http://www.biovis.net/modules/search/search.css?njdarp");
+@import url("http://www.biovis.net/modules/user/user.css?njdarp");
+@import url("../../../sites/all/modules/views/css/views.css@njdarp.css");</style>
+<style type="text/css" media="all">@import url("../../../sites/all/modules/ckeditor/ckeditor.css@njdarp.css");
+@import url("../../../sites/all/modules/ctools/css/ctools.css@njdarp.css");</style>
+<link type="text/css" rel="stylesheet" href="../../../sites/all/libraries/imageflow/imageflow.css@njdarp.css" media="all" />
+<style type="text/css" media="all">@import url("../../../sites/all/modules/imageflow/css/imageflow.module.css@njdarp.css");</style>
+<style type="text/css" media="all">@import url("http://www.biovis.net/themes/bartik/css/layout.css?njdarp");
+@import url("http://www.biovis.net/themes/bartik/css/style.css?njdarp");
+@import url("../../../sites/default/files/color/biovis-8495a6ec/colors.css@njdarp.css");
+@import url("../../../sites/all/themes/biovis/css/biovis.css@njdarp.css");</style>
+<style type="text/css" media="print">@import url("http://www.biovis.net/themes/bartik/css/print.css?njdarp");</style>
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="http://www.biovis.net/sites/all/themes/biovis/css/ie.css?njdarp" media="all" />
+<![endif]-->
+
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="http://www.biovis.net/sites/all/themes/biovis/css/ie6.css?njdarp" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://www.biovis.net/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://www.biovis.net/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://www.biovis.net/misc/drupal.js?njdarp"></script>
+<script type="text/javascript" src="../../../sites/all/libraries/imageflow/imageflow.packed.js@njdarp"></script>
+<script type="text/javascript" src="../../../sites/all/modules/imageflow/js/imageflow.load.js@njdarp"></script>
+<script type="text/javascript" src="../../../sites/all/modules/google_analytics/googleanalytics.js@njdarp"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-22015250-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"biovis","theme_token":"o3REBh-4svubK6VtDqYHz88kq9rViysW4Ug28JuymdQ","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/imageflow\/imageflow.packed.js":1,"sites\/all\/modules\/imageflow\/js\/imageflow.load.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/imageflow\/imageflow.css":1,"sites\/all\/modules\/imageflow\/css\/imageflow.module.css":1,"themes\/bartik\/css\/layout.css":1,"themes\/bartik\/css\/style.css":1,"sites\/all\/themes\/biovis\/css\/colors.css":1,"sites\/all\/themes\/biovis\/css\/biovis.css":1,"themes\/bartik\/css\/print.css":1,"sites\/all\/themes\/biovis\/css\/ie.css":1,"sites\/all\/themes\/biovis\/css\/ie6.css":1}},"imageflow":{"imageflow-1":{"reflections":false,"captions":true,"imagesHeight":0.45,"percentLandscape":100,"aspectRatio":3.3,"startID":7,"ImageFlowID":"imageflow-1","imagePath":"..\/..\/..\/..","reflectPath":"\/sites\/all\/libraries\/imageflow\/"}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+//--><!]]>
+</script>
+  <base href="" />
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-472 node-type-paper" >
+  <div id="skip-link">
+    <a href="../../../index.html#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page-wrapper"><div id="page">
+
+  <div id="header" class="without-secondary-menu"><div class="section clearfix">
+
+          <a href="../about.html" title="Home" rel="home" id="logo">
+        <img src="../../../sites/default/files/logo_3.png" alt="Home" />
+      </a>
+    
+          <div id="name-and-slogan">
+
+                              <div id="site-name">
+              <strong>
+                <span class="conference-name">2nd IEEE Symposium on Biological Data Visualization</span>
+              </strong>
+			  <br />
+			    <span class="conference-info">14-15 October 2012 // Seattle, WA @ IEEE VisWeek</span>
+            </div>
+                  
+        
+      </div> <!-- /#name-and-slogan -->
+				  <div id="header-rotation">
+		    <img src="../../../sites/all/themes/biovis/header_rotation/2012/BioVisPaper0120-file1.png" alt=""/>		  </div>
+		    
+    
+          <div id="main-menu" class="navigation">
+	  <h2 class="element-invisible">Main menu</h2><ul id="main-menu-links" class="links clearfix"><li class="menu-396 first"><a href="../info/cfp.html" title="">CFP</a></li>
+<li class="menu-397"><a href="../info/contest.html" title="">Contest</a></li>
+<li class="menu-398"><a href="../info/submission.html" title="">Submission</a></li>
+<li class="menu-551"><a href="../papers-posters.html" title="">Papers &amp; Posters</a></li>
+<li class="menu-399"><a href="../info/schedule.html" title="">Program</a></li>
+<li class="menu-401"><a href="../info/registration.html" title="">Registration</a></li>
+<li class="menu-402"><a href="../info/committee.html" title="">Committee</a></li>
+<li class="menu-405 last"><a href="../../../conference-archive.html" title="">Archive</a></li>
+</ul>      </div> <!-- /#main-menu -->
+    
+
+    
+  </div></div> <!-- /.section, /#header -->
+    
+  
+  
+  <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
+
+    
+    
+    <div id="content" class="column"><div class="section">
+            <a id="main-content"></a>
+                    <h1 class="title" id="page-title">
+          compreheNGSive: A Tool for Exploring Next-Gen Sequencing Variants        </h1>
+                          <div class="tabs">
+                  </div>
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-472" class="node node-paper node-full clearfix" about="/year/2012/papers/comprehengsive-tool-exploring-next-gen-sequencing-variants" typeof="sioc:Item foaf:Document">
+
+      
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-submission-type field-type-list-text field-label-hidden"><div class="field-items"><div class="field-item even">Poster</div></div></div><div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPoster0124-file1.png" width="220" height="165" /></div></div></div><div class="field field-name-field-author-list field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Alex Bigelow, Miriah Meyer, Nicola Camp</div></div></div><div class="field field-name-field-abstract field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>In this design study we are collaborating with a group of genetic epidemiology experts who are using NGS data to study breast cancer. To understand our collaborators’ analysis needs we worked with this group for a year, spending four days a week in their lab. From numerous interviews, we developed over ten paper prototypes, five software prototypes, and acquired feedback. Analyzing this feedback revealed necessary visualization tasks and a workflow applicable to their data exploration. Our contributions are an articulation of a workflow and set of visualization tasks needed by our collaborators, and an early prototype of our system: compreheNGSive.</p>
+</div></div></div>  </div>
+
+  
+  
+</div>
+  </div>
+</div>
+<div id="block-block-9" class="block block-block">
+
+    
+  <div class="content">
+    <h2>BioVis 2012 Information</h2><div class="view view-imageflow view-id-imageflow view-display-id-block view-dom-id-da25c105af16408ae6ffc3057d6ea6fe">
+        
+  
+  
+      <div class="view-content">
+      <div class="imageflow clearfix" id="imageflow-1">
+  <img longdesc="/year/2012/papers/new-ucsc-cancer-genomics-browser" alt="The New UCSC Cancer Genomics Browser" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPoster0101-file1.png" width="220" height="167" /><img longdesc="/year/2012/papers/volume-visualization-serial-electron-microscopy-images-using-local-variance" alt="" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPaper0122-file1.jpg" width="220" height="171" /><img longdesc="/year/2012/papers/enroute-dynamic-path-extraction-biological-pathway-maps-depth-experimental-data" alt="" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPaper0125-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/matse-microarray-time-series-explorer" alt="" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPaper0129-file1.png" width="220" height="68" /><img longdesc="/year/2012/papers/epithelial-cell-reconstruction-and-visualization-developing-drosophila-wing" alt="" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPaper0138-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/incide-brain-bee-visualising-honeybee-brain-activity-real-time-semantic" alt="" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPaper0139-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/advise-visualizing-dynamics-enzyme-annotations-uniprotswissprot" alt="" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPaper0141-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/gene-rivit-visualization-tool-comparative-analysis-gene-neighborhoods-prokaryotes" alt="" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPaper0143-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/implicit-surfaces-interactive-graph-based-cavity-analysis-molecular-simulations" alt="" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPaper0144-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/towards-real-time-visualization-detailed-neural-tissue-models-view-frustum" alt="" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPaper0145-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/visualizing-cells-and-their-connectivity-graphs-compucell3d" alt="" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPaper0146-file1.png" width="211" height="220" /><img longdesc="/year/2012/papers/uncertainty-aware-visual-analysis-biochemical-reaction-networks" alt="" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPaper0107-file3.png" width="220" height="220" /><img longdesc="/year/2012/papers/interactive-extraction-neural-structures-user-guided-morphological-diffusion" alt="" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPaper0112-file2.jpg" width="220" height="165" /><img longdesc="/year/2012/papers/mzrepeat-visual-analysis-lipids-mass-spectrometry" alt="" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPaper0114-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/dynamic-channels-biomolecular-systems-path-analysis-and-visualization" alt="" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPaper0116-file1.png" width="220" height="220" /><img longdesc="/year/2012/papers/heterogeneity-based-guidance-exploring-multiscale-data-systems-biology" alt="" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPaper0118-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/similarity-analysis-cell-movements-video-microscopy" alt="" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPaper0120-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/user-guided-segmentation-thoracic-computed-tomography-data-electrical-impedance" alt="User-guided Segmentation of Thoracic Computed Tomography Data for Electrical Impedance Tomography Image Reconstruction" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPoster0117-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/visualization-and-exploration-3d-toponome-data" alt="Visualization and Exploration of 3D Toponome Data" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPoster0119-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/tractography-context-multimodal-visualization-probabilistic-tractograms" alt="Tractography in Context: Multimodal Visualization of Probabilistic Tractograms in Anatomical Context" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPoster0120-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/using-mathematical-graph-framework-visualization-inheritance-patterns-commercial" alt="Using a Mathematical Graph Framework for Visualization of Inheritance Patterns in Commercial Plant Pedigrees" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPoster0121-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/extending-grammar-graphics-biological-data-visualization" alt="Extending The Grammar of Graphics for Biological Data Visualization" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPoster0122-file1.jpg" width="220" height="165" /><img longdesc="/year/2012/papers/comprehengsive-tool-exploring-next-gen-sequencing-variants" alt="compreheNGSive: A Tool for Exploring Next-Gen Sequencing Variants" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPoster0124-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/medsavant-visual-analytics-genetic-variation-datasets" alt="MedSavant: Visual Analytics for Genetic Variation Datasets" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPoster0126-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/bulk-synchronous-visualization" alt="Bulk Synchronous Visualization" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPoster0127-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/getting-visualization-large-biological-data-sets" alt="Getting Into Visualization of Large Biological Data Sets" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPoster0128-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/aracari-exploration-eqtl-data-through-visualization" alt="Aracari: exploration of eQTL data through visualization" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPoster0129-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/abstract-view-associations-between-diseases-and-developmental-gene-sets" alt="An Abstract View of Associations Between Diseases and Developmental Gene Sets" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPoster0107-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/can-adjacency-matrices-help-exploration-and-understanding-multi-omics-data" alt="Can Adjacency Matrices help in the exploration and understanding of Multi-Omics Data?" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPoster0110-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/stratomex-enabling-visualization-driven-cancer-subtype-analysis" alt="StratomeX: Enabling Visualization-Driven Cancer Subtype Analysis" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPoster0111-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/genomering-alignment-visualization-based-supergenome-coordinates" alt="GenomeRing: alignment visualization based on SuperGenome coordinates" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPoster0112-file1.png" width="220" height="220" /><img longdesc="/year/2012/papers/scalable-interactive-analysis-retinal-astrocyte-networks" alt="Scalable Interactive Analysis of Retinal Astrocyte Networks" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPoster0115-file1.png" width="220" height="165" /><img longdesc="/year/2012/papers/visual-analysis-genome-wide-tracts-homozygosity" alt="Visual Analysis of Genome-wide Tracts of Homozygosity" src="../../../sites/default/files/styles/medium/public/papers/2012/BioVisPoster0116-file1.png" width="220" height="165" /></div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+      
+    </div></div> <!-- /.section, /#content -->
+
+          <div id="sidebar-second" class="column sidebar"><div class="section">
+          <div class="region region-sidebar-second">
+    <div id="block-block-15" class="block block-block">
+
+    <h2>BioVis Publications</h2>
+  
+  <div class="content">
+    <p><a href="http://ieeexplore.ieee.org/xpl/mostRecentIssue.jsp?punumber=6083214">Proceedings 2011</a><br />
+	<a href="http://www.biomedcentral.com/bmcbioinformatics/supplements/13/S8">Highlights 2011</a>&nbsp;<span style="font-size:10px;">(Open Access)</span></p>
+  </div>
+</div>
+<div id="block-block-3" class="block block-block">
+
+    <h2>Deadlines</h2>
+  
+  <div class="content">
+    <p><strong>Paper Deadline</strong><br />
+30 April 2012, 5 pm PDT<br /><strong>Poster Deadline</strong><br />
+27 June 2012, 5 pm PDT<br /><strong>Contest Entry Deadline</strong><br />
+11 July 2012, 5 pm PDT</p>
+  </div>
+</div>
+<div id="block-block-4" class="block block-block">
+
+    <h2>Follow us on Twitter</h2>
+  
+  <div class="content">
+    <p><a href="http://twitter.com/#!/search/realtime/%23biovis">@biovis_net / #biovis</a></p>
+  </div>
+</div>
+<div id="block-block-6" class="block block-block">
+
+    
+  <div class="content">
+    <p>BioVis 2012 is an official symposium of</p>
+<p><a href="http://www.ieee.org"><img alt="" src="../../../sites/default/files/ieee_logo_sm.png" style="width: 170px; height: 50px; " /></a><br />
+	<a href="http://www.computer.org"><img alt="" src="../../../sites/default/files/ieee_cs_logo_sm.png" style="width: 66px; height: 40px; " /></a>&nbsp;<a href="http://www.vgtc.org"><img alt="" src="../../../sites/default/files/ieee_vgtc_logo_sm.png" style="width: 70px; height: 40px; " /></a></p>
+<p>BioVis 2012 is affiliated with</p>
+<p><a href="http://www.iscb.org"><img alt="" src="../../../sites/default/files/iscb_logo_sm.png" style="width: 146px; height: 50px; " /></a></p>
+<p>BioVis 2012 Gold Supporter</p>
+<p><a href="http://www.agilent.com"><img alt="Agilent" src="../../../sites/default/files/4c_CorporateSig-noHL_0.jpg" style="width: 146px; height: 28px; " /></a></p>
+<p><a href="http://www.autodesk.com"><img alt="Autodesk" src="../../../sites/default/files/autodesk_logo_sm.png" style="width: 146px; height: 30px; " /></a></p>
+<p>BioVis 2012 Bronze Supporter</p>
+<p><a href="http://www.battelle.org"><img alt="Agilent" src="../../../sites/default/files/bcmm_logo_sm.png" style="width: 146px; height: 54px; " /></a></p>
+<p>BioVis 2012 Publisher Supporter</p>
+<p><a href="http://www.nature.com/nmeth/"><img alt="Agilent" src="../../../sites/default/files/nature-methods_logo_sm.png" style="width: 146px; height: 21px; " /></a></p>
+  </div>
+</div>
+  </div>
+      </div></div> <!-- /.section, /#sidebar-second -->
+    
+  </div></div> <!-- /#main, /#main-wrapper -->
+
+  
+  <div id="footer-wrapper"><div class="section">
+
+    
+          <div id="footer" class="clearfix">
+          <div class="region region-footer">
+    <div id="block-block-5" class="block block-block">
+
+    
+  <div class="content">
+    <p>BioVis 2012 is sponsored by the <a class="link" href="http://www.vgtc.org/">IEEE VGTC</a>. To contact the organizers please send an email to <a class="link" href="mailto:contact@biovis.net">contact@biovis.net</a>. &copy; 2012. BioVis. All Rights Reserved.</p>
+  </div>
+</div>
+  </div>
+      </div> <!-- /#footer -->
+    
+  </div></div> <!-- /.section, /#footer-wrapper -->
+
+</div></div> <!-- /#page, /#page-wrapper -->
+  </body>
+</html>

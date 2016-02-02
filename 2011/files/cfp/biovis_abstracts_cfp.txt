@@ -1,0 +1,125 @@
+*** CALL FOR ABSTRACTS ***
+
+BioVis 2011: IEEE Symposium on Biological Data Visualization
+
+at VisWeek 2011 in Providence, RI
+October 23-24, 2011
+
+Website: http://www.biovis.net
+
+Abstract Submission Deadline: July 8, 2011
+
+
+*** 1. Aims and Scope ***
+
+The rapidly expanding field of biology creates enormous challenges for
+computational visualization techniques that enable researchers to gain
+insight from their large and highly complex data sets.
+
+The goal of the first IEEE Symposium on Biological Data Visualization
+(BioVis 2011) is to create the premier international and
+interdisciplinary event for all aspects of visualization in biology.
+This symposium will bring together researchers from the visualization,
+bioinformatics, and biology communities with the purpose of educating,
+inspiring, and engaging visualization researchers in biological data
+visualization, as well as bioinformatics and biology researchers in
+state-of-the-art visualization research. As the first annual BioVis
+Symposium, this event seeks to emphasize inclusion and interaction
+between these communities as its primary impact.
+
+The symposium will serve as a platform for researchers from these
+fields to increase the impact of visualization approaches in biology.
+The breadth and diversity of biological research areas will enable
+researchers from all parts of the visualization community to
+contribute to this effort, and the symposium will provide an excellent
+opportunity to initiate interdisciplinary collaborations. Finally, it
+will provide an outlet and training ground for young and freshly
+minted visualization researchers with a keen interest in problems of
+biology and provide a venue for researchers in biology and
+bioinformatics to share pressing visualization challenges and
+potential solutions in their fields.
+
+
+*** 2. Topics ***
+
+We are looking for contributions on all aspects of visualization in
+biology. Suggested topics include, but are not limited to:
+
+- Genome and sequence data, including genomic variation data
+- Multivariate omics data (transcriptomics, proteomics, metabolomics, etc.)
+- Phylogenetic data
+- Ecological and taxonomic data
+- Biological networks and pathways
+- Biological ontologies
+- Molecular structures (protein structures, RNA structures, etc.)
+- Subcellular, cellular, tissue- and organ-level structures
+- Visualization of image data, such as microscopic or radiological data
+- Integration of image and omics data for systems biology
+- Modeling, simulation and visualization of biological systems
+- Visualization in neurobiology and developmental biology
+- Systems and software frameworks for biological visualization
+- Integration of visualization in biological workflows or collaborative processes
+- Visualization and visual analytics of integrated data sets
+- Evaluation of biological visualization systems including interfaces,
+  usability, laboratory experiments, and field studies   
+- Creation and visualization of biological atlases and metadata
+- Processes for interdisciplinary collaboration between biology and visualization
+
+
+*** 3. Abstract Criteria ***
+
+Given the goal of bringing together members of both the biology and
+visualization communities for discussion, the symposium solicitation
+is purposefully broad and open-minded to diverse types of submissions. 
+The abstracts are meant to support an exchange of ideas and can be based on
+work in progress. Each abstract will be 
+reviewed by the Program Committee. Types of submissions 
+include, but are not limited to:
+
+- Descriptions of work in progress and preliminary results
+- Demonstrations of new or recent systems, both open source and proprietary
+- Descriptions of analysis challenges where current tools fall short
+  for specific datasets and goals, to inform the visualization
+  community in producing better future solutions 
+- Ideas for future research directions
+- Experience reports, highlighting lessons learned from the deployment
+  of relevant previously published work 
+- Reports of original research
+
+Abstracts may be up to 2 pages. Accepted abstracts will be presented
+as posters, interactive demos or videos at the symposium -- authors
+will be asked to specify the mode of presentation at the time of
+submission. All presenters will have the opportunity to give a brief
+overview of their work in a plenary "fast-forward
+session". Additionally, presenters of selected abstracts will be given
+the opportunity for longer oral presentation at the symposium.
+
+All abstracts will be considered a "personal communication" to the
+symposium attendees.  Abstracts will not be published in the
+proceedings, but will appear in the program, with the distributed
+symposium materials, and on the symposium website.
+
+
+
+*** 4. Important Dates ***
+
+Abstract submission: Friday, July 8, 2011
+Notification of acceptance of abstracts: August 15, 2011
+
+Camera ready copy: Wednesday, August 31, 2011
+
+All deadlines are at 5:00 pm Pacific Time (PDT).
+
+
+
+Details on how to submit abstracts are provided on
+http://www.biovis.net/submission.html . Further details about this CFP
+can be found on http://biovis.net/cfp.html.
+
+
+
+We look forward to your submissions!
+
+Miriah Meyer and Cydney Nielsen
+BioVis 2011 Abstract Chairs
+

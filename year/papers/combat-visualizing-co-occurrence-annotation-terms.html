@@ -1,0 +1,158 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta about="/year/papers/combat-visualizing-co-occurrence-annotation-terms" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+<link rel="shortcut icon" href="../../sites/all/themes/biovis/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta content="COMBat: Visualizing co-occurrence of annotation terms" about="/year/papers/combat-visualizing-co-occurrence-annotation-terms" property="dc:title" />
+<link rel="shortlink" href="../../node/541.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="combat-visualizing-co-occurrence-annotation-terms.html" />
+  <title>COMBat: Visualizing co-occurrence of annotation terms | BioVis</title>
+  <style type="text/css" media="all">@import url("http://www.biovis.net/modules/system/system.base.css?njdarp");
+@import url("http://www.biovis.net/modules/system/system.menus.css?njdarp");
+@import url("http://www.biovis.net/modules/system/system.messages.css?njdarp");
+@import url("http://www.biovis.net/modules/system/system.theme.css?njdarp");</style>
+<style type="text/css" media="all">@import url("http://www.biovis.net/modules/comment/comment.css?njdarp");
+@import url("../../sites/all/modules/date/date_api/date.css@njdarp.css");
+@import url("../../sites/all/modules/date/date_popup/themes/datepicker.1.7.css@njdarp.css");
+@import url("http://www.biovis.net/modules/field/theme/field.css?njdarp");
+@import url("http://www.biovis.net/modules/node/node.css?njdarp");
+@import url("http://www.biovis.net/modules/search/search.css?njdarp");
+@import url("http://www.biovis.net/modules/user/user.css?njdarp");
+@import url("../../sites/all/modules/views/css/views.css@njdarp.css");</style>
+<style type="text/css" media="all">@import url("../../sites/all/modules/ckeditor/ckeditor.css@njdarp.css");
+@import url("../../sites/all/modules/ctools/css/ctools.css@njdarp.css");</style>
+<style type="text/css" media="all">@import url("http://www.biovis.net/themes/bartik/css/layout.css?njdarp");
+@import url("http://www.biovis.net/themes/bartik/css/style.css?njdarp");
+@import url("../../sites/default/files/color/biovis-8495a6ec/colors.css@njdarp.css");
+@import url("../../sites/all/themes/biovis/css/biovis.css@njdarp.css");</style>
+<style type="text/css" media="print">@import url("http://www.biovis.net/themes/bartik/css/print.css?njdarp");</style>
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="http://www.biovis.net/sites/all/themes/biovis/css/ie.css?njdarp" media="all" />
+<![endif]-->
+
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="http://www.biovis.net/sites/all/themes/biovis/css/ie6.css?njdarp" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://www.biovis.net/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://www.biovis.net/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://www.biovis.net/misc/drupal.js?njdarp"></script>
+<script type="text/javascript" src="../../sites/all/modules/google_analytics/googleanalytics.js@njdarp"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-22015250-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"biovis","theme_token":"LXhhTeD7a4lBK2E5TQTdu2tGuKhfhXSsPffRJTwTImI","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"themes\/bartik\/css\/layout.css":1,"themes\/bartik\/css\/style.css":1,"sites\/all\/themes\/biovis\/css\/colors.css":1,"sites\/all\/themes\/biovis\/css\/biovis.css":1,"themes\/bartik\/css\/print.css":1,"sites\/all\/themes\/biovis\/css\/ie.css":1,"sites\/all\/themes\/biovis\/css\/ie6.css":1}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+//--><!]]>
+</script>
+  <base href="" />
+</head>
+<body class="html not-front not-logged-in no-sidebars page-node page-node- page-node-541 node-type-paper" >
+  <div id="skip-link">
+    <a href="../../index.html#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page-wrapper"><div id="page">
+
+  <div id="header" class="without-secondary-menu"><div class="section clearfix">
+
+          <a href="../2015/about.html" title="Home" rel="home" id="logo">
+        <img src="../../sites/default/files/logo_3.png" alt="Home" />
+      </a>
+    
+          <div id="name-and-slogan">
+
+                              <div id="site-name">
+              <strong>
+                <span class="conference-name">5th Symposium on Biological Data Visualization</span>
+              </strong>
+			  <br />
+			    <span class="conference-info">10- 11 July // Dublin, Ireland @ ISMB/ECCB 2015</span>
+            </div>
+                  
+        
+      </div> <!-- /#name-and-slogan -->
+				  <div id="header-rotation">
+		    <img src="../../sites/all/themes/biovis/header_rotation/2015/BioVisPoster0111-file1.png" alt=""/>		  </div>
+		    
+    
+          <div id="main-menu" class="navigation">
+	  <h2 class="element-invisible">Main menu</h2><ul id="main-menu-links" class="links clearfix"><li class="menu-592 first"><a href="../2015/about.html" title="">About</a></li>
+<li class="menu-610"><a href="../2015/news.html" title="News">News</a></li>
+<li class="menu-596"><a href="../2015/cfp.html" title="">CFP</a></li>
+<li class="menu-597"><a href="../2015/program.html" title="">Program</a></li>
+<li class="menu-598"><a href="../2015/papers.html" title="">Papers</a></li>
+<li class="menu-599"><a href="../2015/posters/index.html" title="">Posters</a></li>
+<li class="menu-601"><a href="../2015/design/update.html" title="">Design Contest</a></li>
+<li class="menu-600"><a href="../2015/info/overview.html" title="">Data Contest</a></li>
+<li class="menu-603"><a href="../2015/registration.html" title="Registration page">Registration</a></li>
+<li class="menu-594"><a href="../2015/info/2015-committee.html" title="">Committee</a></li>
+<li class="menu-595 last"><a href="../../conference-archive.html" title="">Archive</a></li>
+</ul>      </div> <!-- /#main-menu -->
+    
+
+    
+  </div></div> <!-- /.section, /#header -->
+    
+  
+  
+  <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
+
+    
+    
+    <div id="content" class="column"><div class="section">
+            <a id="main-content"></a>
+                    <h1 class="title" id="page-title">
+          COMBat: Visualizing co-occurrence of annotation terms        </h1>
+                          <div class="tabs">
+                  </div>
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-541" class="node node-paper node-full clearfix" about="/year/papers/combat-visualizing-co-occurrence-annotation-terms" typeof="sioc:Item foaf:Document">
+
+      
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-submission-type field-type-list-text field-label-hidden"><div class="field-items"><div class="field-item even">Paper</div></div></div><div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="../../sites/default/files/styles/medium/public/papers/2013/BioVis0149-file1.png" width="220" height="165" alt="" /></div></div></div><div class="field field-name-field-author-list field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Remko van Brakel, Mark Fiers, Christof Francke, Michel Westenberg, Huub van de Wetering</div></div></div><div class="field field-name-field-abstract field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>We propose a visual analysis approach that employs a matrix-based visualization technique to explore relations between annotation terms in biological data sets. Our flexible framework provides various ways to form combinations of data elements, which results in a co-occurrence matrix. Each cell in this matrix stores a list of items associated with the combination of the corresponding row and column element. By re-arranging the rows and columns of this matrix, and color-coding the cell contents, patterns become visible. Our prototype tool COMBat allows users to construct a new matrix on the fly by selecting subsets of items of interest, or filtering out uninteresting ones, and it provides various additional interaction techniques. We illustrate our approach with a few case studies concerning the identification of functional links between the presence of particular genes or genomic sequences and particular cellular processes.</p>
+</div></div></div><div class="field field-name-field-publisher-url field-type-link-field field-label-hidden"><div class="field-items"><div class="field-item even"><a href="http://dx.doi.org/10.1109/BioVis.2013.6664342">Conference Publication</a></div></div></div>  </div>
+
+  
+  
+</div>
+  </div>
+</div>
+  </div>
+      
+    </div></div> <!-- /.section, /#content -->
+
+    
+  </div></div> <!-- /#main, /#main-wrapper -->
+
+  
+  <div id="footer-wrapper"><div class="section">
+
+    
+    
+  </div></div> <!-- /.section, /#footer-wrapper -->
+
+</div></div> <!-- /#page, /#page-wrapper -->
+  </body>
+</html>

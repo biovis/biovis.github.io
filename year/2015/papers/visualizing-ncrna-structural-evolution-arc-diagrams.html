@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta about="/year/2015/papers/visualizing-ncrna-structural-evolution-arc-diagrams" property="sioc:num_replies" content="0" datatype="xsd:integer" />
+<link rel="shortcut icon" href="../../../sites/all/themes/biovis/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta content="Visualizing ncRNA Structural Evolution with Arc Diagrams" about="/year/2015/papers/visualizing-ncrna-structural-evolution-arc-diagrams" property="dc:title" />
+<link rel="shortlink" href="../../../node/734.html" />
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="visualizing-ncrna-structural-evolution-arc-diagrams.html" />
+  <title>Visualizing ncRNA Structural Evolution with Arc Diagrams | BioVis</title>
+  <style type="text/css" media="all">@import url("http://www.biovis.net/modules/system/system.base.css?njdarp");
+@import url("http://www.biovis.net/modules/system/system.menus.css?njdarp");
+@import url("http://www.biovis.net/modules/system/system.messages.css?njdarp");
+@import url("http://www.biovis.net/modules/system/system.theme.css?njdarp");</style>
+<style type="text/css" media="all">@import url("http://www.biovis.net/modules/comment/comment.css?njdarp");
+@import url("../../../sites/all/modules/date/date_api/date.css@njdarp.css");
+@import url("../../../sites/all/modules/date/date_popup/themes/datepicker.1.7.css@njdarp.css");
+@import url("http://www.biovis.net/modules/field/theme/field.css?njdarp");
+@import url("http://www.biovis.net/modules/node/node.css?njdarp");
+@import url("http://www.biovis.net/modules/search/search.css?njdarp");
+@import url("http://www.biovis.net/modules/user/user.css?njdarp");
+@import url("../../../sites/all/modules/views/css/views.css@njdarp.css");</style>
+<style type="text/css" media="all">@import url("../../../sites/all/modules/ckeditor/ckeditor.css@njdarp.css");
+@import url("../../../sites/all/modules/ctools/css/ctools.css@njdarp.css");</style>
+<link type="text/css" rel="stylesheet" href="../../../sites/all/libraries/imageflow/imageflow.css@njdarp.css" media="all" />
+<style type="text/css" media="all">@import url("../../../sites/all/modules/imageflow/css/imageflow.module.css@njdarp.css");</style>
+<style type="text/css" media="all">@import url("http://www.biovis.net/themes/bartik/css/layout.css?njdarp");
+@import url("http://www.biovis.net/themes/bartik/css/style.css?njdarp");
+@import url("../../../sites/default/files/color/biovis-8495a6ec/colors.css@njdarp.css");
+@import url("../../../sites/all/themes/biovis/css/biovis.css@njdarp.css");</style>
+<style type="text/css" media="print">@import url("http://www.biovis.net/themes/bartik/css/print.css?njdarp");</style>
+
+<!--[if lte IE 7]>
+<link type="text/css" rel="stylesheet" href="http://www.biovis.net/sites/all/themes/biovis/css/ie.css?njdarp" media="all" />
+<![endif]-->
+
+<!--[if IE 6]>
+<link type="text/css" rel="stylesheet" href="http://www.biovis.net/sites/all/themes/biovis/css/ie6.css?njdarp" media="all" />
+<![endif]-->
+  <script type="text/javascript" src="http://www.biovis.net/misc/jquery.js?v=1.4.4"></script>
+<script type="text/javascript" src="http://www.biovis.net/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="http://www.biovis.net/misc/drupal.js?njdarp"></script>
+<script type="text/javascript" src="../../../sites/all/libraries/imageflow/imageflow.packed.js@njdarp"></script>
+<script type="text/javascript" src="../../../sites/all/modules/imageflow/js/imageflow.load.js@njdarp"></script>
+<script type="text/javascript" src="../../../sites/all/modules/google_analytics/googleanalytics.js@njdarp"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var _gaq = _gaq || [];_gaq.push(["_setAccount", "UA-22015250-1"]);_gaq.push(["_trackPageview"]);(function() {var ga = document.createElement("script");ga.type = "text/javascript";ga.async = true;ga.src = ("https:" == document.location.protocol ? "https://ssl" : "http://www") + ".google-analytics.com/ga.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ga, s);})();
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"biovis","theme_token":"ASU5uJNoYKiktTMk3BSobNDWEYD76jA4o8g1w7qjCg0","js":{"misc\/jquery.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/libraries\/imageflow\/imageflow.packed.js":1,"sites\/all\/modules\/imageflow\/js\/imageflow.load.js":1,"sites\/all\/modules\/google_analytics\/googleanalytics.js":1,"0":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"modules\/comment\/comment.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/modules\/date\/date_popup\/themes\/datepicker.1.7.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/ckeditor.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/libraries\/imageflow\/imageflow.css":1,"sites\/all\/modules\/imageflow\/css\/imageflow.module.css":1,"themes\/bartik\/css\/layout.css":1,"themes\/bartik\/css\/style.css":1,"sites\/all\/themes\/biovis\/css\/colors.css":1,"sites\/all\/themes\/biovis\/css\/biovis.css":1,"themes\/bartik\/css\/print.css":1,"sites\/all\/themes\/biovis\/css\/ie.css":1,"sites\/all\/themes\/biovis\/css\/ie6.css":1}},"imageflow":{"imageflow-1":{"reflections":false,"captions":true,"imagesHeight":0.45,"percentLandscape":100,"aspectRatio":3.3,"startID":7,"ImageFlowID":"imageflow-1","imagePath":"..\/..\/..\/..","reflectPath":"\/sites\/all\/libraries\/imageflow\/"}},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls|xml|z|zip"}});
+//--><!]]>
+</script>
+  <base href="" />
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-second page-node page-node- page-node-734 node-type-paper" >
+  <div id="skip-link">
+    <a href="../../../index.html#main-content" class="element-invisible element-focusable">Skip to main content</a>
+  </div>
+    <div id="page-wrapper"><div id="page">
+
+  <div id="header" class="without-secondary-menu"><div class="section clearfix">
+
+          <a href="../about.html" title="Home" rel="home" id="logo">
+        <img src="../../../sites/default/files/logo_3.png" alt="Home" />
+      </a>
+    
+          <div id="name-and-slogan">
+
+                              <div id="site-name">
+              <strong>
+                <span class="conference-name">5th Symposium on Biological Data Visualization</span>
+              </strong>
+			  <br />
+			    <span class="conference-info">10- 11 July // Dublin, Ireland @ ISMB/ECCB 2015</span>
+            </div>
+                  
+        
+      </div> <!-- /#name-and-slogan -->
+				  <div id="header-rotation">
+		    <img src="../../../sites/all/themes/biovis/header_rotation/2015/BioVisPaper0120-file1.png" alt=""/>		  </div>
+		    
+    
+          <div id="main-menu" class="navigation">
+	  <h2 class="element-invisible">Main menu</h2><ul id="main-menu-links" class="links clearfix"><li class="menu-592 first"><a href="../about.html" title="">About</a></li>
+<li class="menu-610"><a href="../news.html" title="News">News</a></li>
+<li class="menu-596"><a href="../cfp.html" title="">CFP</a></li>
+<li class="menu-597"><a href="../program.html" title="">Program</a></li>
+<li class="menu-598"><a href="../papers.html" title="">Papers</a></li>
+<li class="menu-599"><a href="../posters/index.html" title="">Posters</a></li>
+<li class="menu-601"><a href="../design/update.html" title="">Design Contest</a></li>
+<li class="menu-600"><a href="../info/overview.html" title="">Data Contest</a></li>
+<li class="menu-603"><a href="../registration.html" title="Registration page">Registration</a></li>
+<li class="menu-594"><a href="../info/2015-committee.html" title="">Committee</a></li>
+<li class="menu-595 last"><a href="../../../conference-archive.html" title="">Archive</a></li>
+</ul>      </div> <!-- /#main-menu -->
+    
+
+    
+  </div></div> <!-- /.section, /#header -->
+    
+  
+  
+  <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
+
+    
+    
+    <div id="content" class="column"><div class="section">
+            <a id="main-content"></a>
+                    <h1 class="title" id="page-title">
+          Visualizing ncRNA Structural Evolution with Arc Diagrams        </h1>
+                          <div class="tabs">
+                  </div>
+                          <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div id="node-734" class="node node-paper node-full clearfix" about="/year/2015/papers/visualizing-ncrna-structural-evolution-arc-diagrams" typeof="sioc:Item foaf:Document">
+
+      
+  
+  <div class="content clearfix">
+    <div class="field field-name-field-submission-type field-type-list-text field-label-hidden"><div class="field-items"><div class="field-item even">Poster</div></div></div><div class="field field-name-field-image field-type-image field-label-hidden"><div class="field-items"><div class="field-item even"><img typeof="foaf:Image" src="../../../sites/default/files/styles/medium/public/124-teaser.png" width="220" height="165" alt="" /></div></div></div><div class="field field-name-field-author-list field-type-text field-label-hidden"><div class="field-items"><div class="field-item even">Alyssa Tsiros, Lane Harriso</div></div></div><div class="field field-name-field-abstract field-type-text-long field-label-hidden"><div class="field-items"><div class="field-item even"><p>[Desing Contest Entry] The second challenge of this year&rsquo;s BioVis Symposium Design Contest was to create a visualization of noncoding RNA (ncRNA) structural evolution of the human accelerated region 1 (HAR1) gene in ancestral, denisovan, and human sequences. The commonly used chart types for this data, dot plots and node-link style graphs, do not support direct comparison of base pairings among the three structures. We propose a redesign that uses arc diagram visualization techniques to highlight conserved or otherwise evolved base pairings. These diagrams support the placement of unique and prevalent base pairings along a common scale and allow mapping task-specific features to color, providing viewers with a more direct means to identify differences in the structure predictions.</p>
+</div></div></div>  </div>
+
+  
+  
+</div>
+  </div>
+</div>
+<div id="block-block-9" class="block block-block">
+
+    
+  <div class="content">
+    <h2>BioVis 2015 Information</h2><div class="view view-imageflow view-id-imageflow view-display-id-block view-dom-id-38b60c61b2343acbefddc8745a19bcef">
+        
+  
+  
+      <div class="view-content">
+      <div class="imageflow clearfix" id="imageflow-1">
+  <img longdesc="/year/2015/papers/visualizing-rna-secondary-structure-base-pair-binding-probabilities-using-nested" alt="" src="../../../sites/default/files/styles/medium/public/120-teaser.png" width="220" height="165" /><img longdesc="/year/2015/papers/visualizing-ncrna-structural-evolution-arc-diagrams" alt="" src="../../../sites/default/files/styles/medium/public/124-teaser.png" width="220" height="165" /><img longdesc="/year/2015/papers/visualizing-ensembles-predicted-rna-structures-and-their-base-pairing-probabilities" alt="" src="../../../sites/default/files/styles/medium/public/123-teaser.png" width="220" height="219" /><img longdesc="/year/2015/papers/visualizing-rna-secondary-structure-base-pair-binding-probabilitie" alt="" src="../../../sites/default/files/styles/medium/public/121-teaser.png" width="214" height="220" /><img longdesc="/year/2015/papers/circular-secondary-structure-uncertainty-plot-cs2-uplot-visualizing-rna-secondary" alt="" src="../../../sites/default/files/styles/medium/public/119-teaser.png" width="220" height="220" /><img longdesc="/year/2015/papers/novel-tool-isoform-visualization" alt="" src="../../../sites/default/files/styles/medium/public/118-teaser.png" width="220" height="165" /><img longdesc="/year/2015/papers/deskgen-novel-platform-crispr-gene-editing" alt="" src="../../../sites/default/files/styles/medium/public/114-teaser.png" width="213" height="220" /><img longdesc="/year/2015/papers/biotapestry-new-development-supports-integrated-visualization-computational-results" alt="" src="../../../sites/default/files/styles/medium/public/110-teaser.png" width="220" height="124" /><img longdesc="/year/2015/papers/active-data-canvas-linking-data-knowledge" alt="" src="../../../sites/default/files/styles/medium/public/109-teaser.png" width="220" height="124" /><img longdesc="/year/2015/papers/interactive-visualization-provenance-graphs-reproducible-biomedical-research" alt="" src="../../../sites/default/files/styles/medium/public/107-teaser.png" width="220" height="120" /><img longdesc="/year/2015/papers/novel-approach-modelling-protein-protein-interactions-biological-space" alt="" src="../../../sites/default/files/styles/medium/public/106-teaser.png" width="220" height="155" /><img longdesc="/year/2015/papers/rna-sequenlens-visualizing-rna-secondary-structures" alt="" src="../../../sites/default/files/styles/medium/public/117-teaser.png" width="220" height="165" /><img longdesc="/year/2015/papers/annopeak-visualization-tool-chip-seq-and-chip-exo-analysis" alt="" src="../../../sites/default/files/styles/medium/public/115-teaser.png" width="220" height="165" /><img longdesc="/year/2015/papers/polimero-bio-composable-biological-visualizations-using-web-components" alt="" src="../../../sites/default/files/styles/medium/public/111-teaser.png" width="220" height="173" /><img longdesc="/year/2015/papers/3d-visualization-molecular-data-using-cloud-streaming-framework-web-based-large" alt="" src="../../../sites/default/files/styles/medium/public/108-teaser.png" width="220" height="165" /><img longdesc="/year/2015/papers/new-hierarchical-3d-random-walk-visualization-whole-chromosome-sequences" alt="" src="../../../sites/default/files/styles/medium/public/105-teaser.png" width="212" height="220" /><img longdesc="/year/2015/papers/integrated-visual-analysis-protein-structures-sequences-and-feature-data" alt="" src="../../../sites/default/files/styles/medium/public/BioVis0133-file1.png" width="220" height="165" /><img longdesc="/year/2015/papers/bactogenie-large-scale-comparative-genome-visualization-big-displays-0" alt="" src="../../../sites/default/files/styles/medium/public/BioVis0130-file1.jpeg" width="220" height="165" /><img longdesc="/year/2015/papers/extended-linesets-visualization-technique-interactive-inspection-biological" alt="" src="../../../sites/default/files/styles/medium/public/BioVis0128-file1.png" width="220" height="165" /><img longdesc="/year/2015/papers/pathwaymatrix-visualizing-binary-relationships-between-proteins-biological-pathways" alt="" src="../../../sites/default/files/styles/medium/public/BioVis0127-file1_0.png" width="220" height="165" /><img longdesc="/year/2015/papers/reactionflow-visualizing-relationships-between-proteins-and-complexes-biological" alt="" src="../../../sites/default/files/styles/medium/public/BioVis0124-file1_0.png" width="220" height="153" /><img longdesc="/year/2015/papers/xclusim-visual-analytics-tool-interactively-comparing-multiple-clustering-results" alt="" src="../../../sites/default/files/styles/medium/public/BioVis0123-file1_0.png" width="220" height="165" /><img longdesc="/year/2015/papers/epiviz-view-inside-design-integrated-visual-analysis-software-genomics" alt="" src="../../../sites/default/files/styles/medium/public/BioVis0122-file1.png" width="220" height="165" /><img longdesc="/year/2015/papers/moflow-visualizing-conformational-changes-molecular-flow-improves-understanding" alt="" src="../../../sites/default/files/styles/medium/public/BioVis0121-file1.jpg" width="220" height="178" /><img longdesc="/year/2015/papers/graphie-graph-based-histology-image-explorer" alt="" src="../../../sites/default/files/styles/medium/public/BioVis0118-file1_1.png" width="220" height="165" /><img longdesc="/year/2015/papers/pan-tetris-interactive-visualisation-pan-genomes" alt="" src="../../../sites/default/files/styles/medium/public/BioVis0115-file1.png" width="220" height="165" /><img longdesc="/year/2015/papers/mirtarvis-interactive-visual-analysis-tool-microrna-mrna-expression-profile-data" alt="" src="../../../sites/default/files/styles/medium/public/BioVis0114-file1_1.png" width="220" height="165" /><img longdesc="/year/2015/papers/visrseq-r-based-visual-framework-analysis-sequencing-data" alt="" src="../../../sites/default/files/styles/medium/public/BioVis0112-file1_1.png" width="220" height="165" /><img longdesc="/year/2015/papers/visual-parameter-optimisation-biomedical-image-processing" alt="" src="../../../sites/default/files/styles/medium/public/BioVis0111-file1_1.png" width="220" height="134" /><img longdesc="/year/2015/papers/physically-based-silico-light-sheet-microscopy-visualizing-fluorescent-brain-models" alt="" src="../../../sites/default/files/styles/medium/public/BioVis0109-file1_1.png" width="220" height="218" /></div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+      
+    </div></div> <!-- /.section, /#content -->
+
+          <div id="sidebar-second" class="column sidebar"><div class="section">
+          <div class="region region-sidebar-second">
+    <div id="block-block-26" class="block block-block">
+
+    <h2>Sponsors</h2>
+  
+  <div class="content">
+    <p>BioVis 2015 is an official SIG of <a href="http://www.iscb.org/ismbeccb2015">ISMB 2015</a></p>
+<p><a href="http://www.iscb.org"><img alt="" height="70" src="../../../sites/default/files/pictures/ISCB.jpg" width="163" /></a></p>
+<p><strong>BioVis 2015 Supporters</strong></p>
+<p>Platinum:</p>
+<p><img alt="" height="26" src="../../../sites/default/files/autodesk_header_logo_140x23.png" width="163" /></p>
+<p>Bronze:</p>
+<p><a href="http://www.mathmed.org/"><img alt="Agilent" height="63" src="../../../sites/default/files/bcmm_logo_sm.png" width="162" /></a></p>
+<p><a href="http://www.nvidia.com/content/global/global.php"><img alt="" height="80" src="../../../sites/default/files/pictures/NVIDIA.png" width="110" /></a></p>
+<p>We also acknowledge the support by&nbsp;<strong>BMC.&nbsp;</strong></p>
+<p><a href="http://www.biomedcentral.com/bmcbioinformatics"><strong><img alt="" height="79" src="../../../sites/default/files/pictures/publications_BMC.jpg" width="160" /></strong></a></p>
+<p>Please check out our <a href="http://www.biomedcentral.com/bmcbioinformatics/series/BioVis2014">thematic series</a> in conjunction with BioVis 2014 and&nbsp;the <a href="http://www.biomedcentral.com/bmcproc/supplements/8/S2">proceedings</a> in conjunction with BioVis 2013</p>
+<p><img alt="" height="45" src="../../../sites/default/files/pictures/SpringerLogo.png" width="164" /></p>
+  </div>
+</div>
+  </div>
+      </div></div> <!-- /.section, /#sidebar-second -->
+    
+  </div></div> <!-- /#main, /#main-wrapper -->
+
+  
+  <div id="footer-wrapper"><div class="section">
+
+    
+          <div id="footer" class="clearfix">
+          <div class="region region-footer">
+    <div id="block-block-25" class="block block-block">
+
+    
+  <div class="content">
+    <p>BioVis 2015.&nbsp;To contact the organizers please send an email to&nbsp;<a class="link" href="mailto:contact@biovis.net">contact@biovis.net</a>. &copy; 2015. BioVis. All Rights Reserved.</p>
+  </div>
+</div>
+  </div>
+      </div> <!-- /#footer -->
+    
+  </div></div> <!-- /.section, /#footer-wrapper -->
+
+</div></div> <!-- /#page, /#page-wrapper -->
+  </body>
+</html>
