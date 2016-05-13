@@ -6,7 +6,7 @@ body.overlay {
   color: #0b0b0b;
 }
 .element-invisible{
-  color: #f00;
+  color: rgba(0,0,0,0);
 }
 .comment .comment-arrow {
   border-color: #ffffff;
