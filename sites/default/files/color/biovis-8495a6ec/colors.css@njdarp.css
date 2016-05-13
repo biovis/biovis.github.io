@@ -3,7 +3,7 @@
 
 body,
 body.overlay {
-  color: #0b0b0b;
+  color: rgba(255, 255, 255, 0);
 }
 .comment .comment-arrow {
   border-color: #ffffff;
