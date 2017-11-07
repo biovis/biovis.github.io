@@ -15,10 +15,11 @@ The [index.html](https://github.com/biovis/biovis.github.io/blob/master/index.ht
 
 Old versions of the biovis website are hosted here. Some of these (2012-2015) are scrapes of a drupal CMS. In 2016, we used jekyll but a manual build process. This is replaced by the explicit repositories starting with [2017](https://github.com/biovis/2017). 
 
-2011 (hand-written): 
+ * 2011 (hand-written): 
 https://github.com/biovis/biovis.github.io/tree/master/2011
-2012-2015 (the drupal years)
+ * 2012-2015 (the drupal years):
 https://github.com/biovis/biovis.github.io/tree/master/year
-2016 (the beginning of Jekyll)
+ * 2016 (the beginning of Jekyll): 
+https://github.com/biovis/biovis.github.io/tree/master/2016
 
 
